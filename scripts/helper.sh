@@ -1,9 +1,7 @@
 #!/bin/bash
 aws deploy create-application --application-name WordPress_App
 aws deploy push \
-  --application-name WordPress_App \
-  --s3-location s3://cos40006-code-deploy-bucket/WordPressApp.zip \
-  --ignore-hidden-files
+  --application-name WordPress_App --s3-location s3://cos40006-code-deploy-bucket/WordPressApp.zip --ignore-hidden-files
 aws deploy create-deployment-group \
   --application-name WordPress_App \
   --deployment-group-name WordPress_DepGroup \
