@@ -19,4 +19,4 @@ aws deploy create-deployment \
   --application-name WordPress_App \
   --deployment-config-name CodeDeployDefault.OneAtATime \
   --deployment-group-name WordPress_DepGroup \
-  --s3-location bucket=cos40006-code-deploy-bucket/WordPressApp,bundleType=zip,key=WordPressApp.zip
+  --s3-location bucket=cos40006-code-deploy-bucket,bundleType=zip,key=WordPressApp.zip
