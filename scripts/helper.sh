@@ -1,4 +1,5 @@
 #!/bin/bash
+aws deploy delete-application --application-name WordPress_App
 aws deploy create-application --application-name WordPress_App
 aws deploy push \
   --application-name WordPress_App --s3-location s3://cos40006-code-deploy-bucket/WordPressApp.zip --ignore-hidden-files
