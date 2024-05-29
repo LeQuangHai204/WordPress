@@ -23,13 +23,13 @@
 define( 'DB_NAME', 'test' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'admin' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'new_password' );
+define( 'DB_PASSWORD', 'Hai204fromtheocean' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'codedeploy-rds.cwgruczxadko.us-east-1.rds.amazonaws.com' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
