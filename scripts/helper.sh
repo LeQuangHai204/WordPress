@@ -5,8 +5,6 @@ cd /tmp/
 git clone https://github.com/LeQuangHai204/WordPress.git
 cd WordPress/
 
-
-
 aws deploy delete-application --application-name WordPress_App
 aws deploy create-application --application-name WordPress_App
 aws s3 rm s3://cos40006-code-deploy-bucket/WordPressApp.zip
